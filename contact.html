@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact me</title>
+    <style>
+        h2 {
+            color: rgb(78, 214, 78);
+        }
+        legend {
+            color: palevioletred;
+            font-size: larger;
+        }
+        fieldset {
+            width: 50%;
+            background-color: #EAF6F6;
+        }
+        body {
+            margin-left: 5%;
+            margin-top: 5%;
+        }
+        button {
+            background-color: rgb(253, 231, 235);
+            border-color: white;
+            margin-top: 5px;
+        }
+        a {
+            color: green;
+        }
+        a:hover {
+            color: skyblue;
+        }
+        a:visited {
+            color: rgb(74, 170, 94);
+        }
+    </style>
+</head>
+<body>
+    <h2>My Contact details</h2>
+<ul>
+    <li><p>My Address </p></li> 
+    <li><p>01737947258</p></li>
+    <li><p>masoomanoor3t@gmail.com</p></li>
+</ul>
+<fieldset>
+    <legend>Your Info:</legend>
+    <form action="mailto:masoomanoor3t@gmail.come" method="post">
+        <label for="name">Your Name:</label>
+        <input type="text" name="Your Name"><br>
+        <label for="email">Your Email:</label>
+        <input type="email" name="Your Email"><br>
+        <label for="yourmassage">Your Massage</label><br>
+        <textarea name="Your Massage" id="massage" cols="30" rows="10" placeholder="Leave your massage here"></textarea><br>
+        
+        &nbsp;&nbsp;<button type="submit">Submit</button>
+       <button type="reset">Reset</button>
+    </form>
+</fieldset>
+<br>
+&nbsp;<a href="index.html">Back to Home</a>
+</body>
+</html>

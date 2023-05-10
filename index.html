@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Masoom's personal site</title>
+    <style>
+        span {
+            color: palevioletred;
+        }
+        a {
+            color: green;
+        }
+        a:hover {
+            color: skyblue;
+        }
+        a:visited {
+            color: rgb(74, 170, 94);
+            
+        }
+        body {
+            text-align: center;
+            margin-top: 8%;
+        }
+        ul {
+            list-style-type: none ;
+            font-size: 16px;
+        }
+        ul li {
+            position: relative;
+        }
+        ul li:before {
+            content: counter(mycounter, disc);
+            color: rgb(49, 199, 179);
+            position: absolute;
+            top: -3px;
+            left: -18px;
+            font-size: 23px;
+        }
+        abbr {
+            text-decoration-color: palevioletred;
+        }
+        /* h1, h3 {
+            color: rgb(94, 187, 197);
+        } */
+        .dotted {
+            border-style: none;
+            border-top-style: dotted;
+            width: 3%;
+            border-width: 5px;
+            color: gray;
+        }
+        /* p {
+            font-size: large;
+        } */
+        
+    </style>
+</head>
+<body>
+    
+    <img src="images/pic-1.png" alt="My photo" title="Masooma Farrah" width="170px" style="border-radius: 50%;">
+    <h1>Masooma Farrah</h1>
+    <hr class="dotted">
+    <p><em>Student of <strong><a href="https://www.w3schools.com/html">HTML</a></strong>, photoshop, English and math.</em></p>
+    <p>&nbsp;&nbsp;&nbsp;I am going to be a web devoper soon inshallah. I <abbr title="Like"><span>&#10084;</span></abbr> learning and studying.</p>
+    
+    <hr size="1" noshade="0" width="50%">
+    
+<h3> &nbsp; My hobbies</h3>
+    <ul>
+        <li>Playing Cricket and watching it.</li>
+        <li>Drinking tea or milk tea.</li>
+        <li>Cycling and driving.</li>
+    </ul>
+    &nbsp;&nbsp;&nbsp;&nbsp; <a href="lessons.html">My Lessons</a><br>
+    &nbsp;&nbsp;&nbsp;&nbsp; <a href="contact.html">Contact me here</a>
+    
+   
+</body>
+</html>
